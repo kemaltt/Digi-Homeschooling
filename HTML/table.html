@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Tables</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Tables</h1>
+
+    <table border="1">
+      <!--çevceve eklemek için border-->
+
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+
+      <tr>
+        <td align="center">Amazon</td>
+        <!-- sutün birleştirme --><!-- align sıralama sağa ortaya sola -->
+        <td>Orhan</td>
+        <td>USA</td>
+        <!-- satır birleştirme -->
+      </tr>
+      <tr>
+        <td>Microsoft</td>
+        <td>Sena</td>
+        <td>London</td>
+      </tr>
+    </table>
+    <hr>
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+    <br />
+    <br />
+
+    <table border="1">
+      <tr>
+        <th rowspan="2">Heading</th>
+        <!--Satırları birleştirmek için rowspan-->
+        <th>Student</th>
+        <th colspan="3">Details</th>
+        <!--Sütunları birleştirmek için colspan-->
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Departman</th>
+        <th>Roll Nummer</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Studentlist</td>
+        <td>1</td>
+        <td>Victor</td>
+        <td>Computer</td>
+        <td>1233</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>William</td>
+        <td>Electronics</td>
+        <td>23233</td>
+      </tr>
+    </table>
+    <hr>
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <br />
+    <br />
+
+    <table border="1">
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+
+      <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+
+      <tr>
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m</td>
+        <td rowspan="2">5:00 p.m</td>
+        <td align="center">Introduction to XML</td>
+      </tr>
+
+      <tr>
+        <td align="center">Validity DTP and Relax NG</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td rowspan="1" align="center">XPath</td>
+      </tr>
+
+      <tr>
+        <td>8:00 a.m.</td>
+        <td>2:00 p.m.</td>
+        <td rowspan="2" align="center">XSL Transformations</td>
+      </tr>
+      <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td align="center">XSL Formating Objects</td>
+      </tr>
+    </table>
+<hr>
+
+<table border="1"  >
+  <thead>
+      <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="3">Seminar</th>
+      </tr>
+      <tr>
+          <th colspan="2">Schedule</th>
+          <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+          <th>Begin</th>
+          <th>End</th>
+      </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 a.m</td>
+          <td rowspan="2">5:00 p.m</td>
+          <td>Introduction to XML</td>
+      </tr>
+      <tr>
+          <td>Validity: DTD and Relax NG</td>
+      </tr>
+      <tr>
+          <td rowspan="4">Tuesday</td>
+          <td>8:00 a.m</td>
+          <td>11:00 a.m</td>
+          <td rowspan="2" id="text">XPath</td>
+      </tr>
+      <tr>
+          <td rowspan="2">11:00 a.m</td>
+          <td rowspan="2">2:00 p.m</td>
+      </tr>
+      <tr>
+          <td rowspan="2" id="text">XSL transformation</td>
+      </tr>
+      <tr>
+          <td>2:00 p.m</td>
+          <td>5:00 p.m</td>
+      </tr>
+      <tr>
+          <td>Wednesday</td>
+          <td>8:00 a.m</td>
+          <td>12:00 p.m</td>
+          <td>XLS Formatting Objects</td>
+      </tr>
+
+  </tbody>
+</table>
+
+      
+
+   
+
+  </body>
+</html>

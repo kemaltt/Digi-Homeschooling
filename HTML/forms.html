@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form action="result.html" method="get">
+        <!--<form action="mailto:masaloungee@gmail.com" method="post"></form>-->
+        <div>
+            <label for="Fname">Firstname :</label>
+            <!--Buton ile yazı arasında bağlantıyı sağlıyor-->
+            <br />
+            <input type="text" name="name" id="Fname" />
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+            <br />
+            <input type="email" name="email" id="email" />
+        </div>
+
+        <div>
+            <label for="email">Password :</label>
+            <br />
+            <input type="password" name="password" id="password" />
+        </div>
+        <hr />
+        <div>
+            <p>Language</p>
+            <input type="radio" name="Lang" value="en" />
+            <label for="en"> English</label>
+            <input type="radio" name="Lang" value="deu" />
+            <label for="deu"> Deutsch</label>
+        </div>
+        <hr />
+
+        <br />
+
+        <div>
+            <label for="country">Choose a Country</label>
+            <select name="country" id="country">
+          <option value="Turkey">Türkey</option>
+          <option value="Germany" selected>Germany</option>
+          <option value="Norvay">Norvay</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Usa">Usa</option>
+        </select>
+
+            <hr />
+        </div>
+
+        <hr />
+        <div>
+            <label for="Prlanguage">Programlama dili :</label>
+            <input type="text" list="Prlanguage" name="Prlanguage" />
+            <datalist id="Prlanguage">
+          <option value="Java">Java</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="C++">C++</option>
+          <option value="Python">Python</option>
+          <option value="C#">C#</option>
+        </datalist>
+        </div>
+        <hr />
+        <div>
+            <label for="msg">Mesajınızı yazınız :</label>
+            <br />
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesajınızı giriniz..."></textarea>
+        </div>
+
+        <hr />
+
+        <div>
+            <input type="submit" name="" value="Submit" />
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+#title {
+    color: rgb(122, 120, 120);
+    background-color: rgb(159, 240, 236);
+    border: 4px solid gray;
+    /* width: 500px; */
+    /* margin: 2vh 5vw; */
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    text-shadow: 1px 1px rgb(243, 227, 202);
+}
+
+#description {
+    color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    padding: 1rem;
+}
+
+legend {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    color: blue;
+    background-color: pink;
+}
+
+.input,
+.inpText {
+    margin: 1em;
+    padding: 1px;
+}
+
+.fieldset {
+    font-family: Arial, Verdana, SansSerif;
+    color: rgb(95, 93, 93);
+    background-color: #efefef;
+    font-weight: bold;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.gender {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#submit {
+    background-color: rgb(73, 204, 41);
+}
